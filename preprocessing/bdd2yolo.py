@@ -3,7 +3,7 @@ import json
 from PIL import Image
 from tqdm import tqdm
 
-# 💡 Class map (your custom YOLO class list)
+# Class map (your custom YOLO class list)
 label_map = {
     'car': 0,
     'person': 1,
