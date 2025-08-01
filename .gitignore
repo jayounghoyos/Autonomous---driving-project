@@ -1,0 +1,45 @@
+# === ENVIRONMENTS ===
+auto/
+.venv/
+env/
+*.env
+
+# === DATASETS ===
+data/
+*.json
+*.csv
+
+# === MODEL WEIGHTS ===
+*.pt
+*.onnx
+*.tflite
+
+# === OUTPUTS ===
+runs/
+inference/
+results/
+*.log
+
+# === MEDIA FILES ===
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.avi
+
+# === PYTHON JUNK ===
+__pycache__/
+*.py[cod]
+*.so
+*.ipynb_checkpoints
+
+# === IDE/EDITOR FILES ===
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# === TEST FILES ===
+Video&ImagesTesters/
+test.*
